@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.hero{
+    background-image: url(../Assets/backgoung-image.jpg);
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-left{
+    padding-top: 100px;
+    padding-left: 200px;
+    width: 430px;
+    color: #D9D9D9;;
+}
+
+.hero-left p{
+    font-weight: 600;
+    font-size: 0.4rem;
+}
+
+.hero-left p:first-child{
+    padding-bottom: 10px;
+}
+.hero-left p:last-child{
+    padding-top: 10px;
+}
+
+

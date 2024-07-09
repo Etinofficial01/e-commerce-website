@@ -1,0 +1,185 @@
+.container{
+    padding: 30px 8%;
+}
+.showcase{
+    width: 100%;
+    background-color: #1F2E27;
+}
+
+.showcase-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.flash-sale{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.flash-sale .flash-icon{
+    background-color: #fff;
+    padding: 10px 12px;
+    font-size: 2.5rem;
+    border-radius: 50%;
+}
+.flash-sale h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.15rem;
+    margin-left: 12px;
+}
+.time {
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.time .segment {
+    margin: 0 1px;
+    background-color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 50% ;
+}
+
+.time .colon {
+    margin: 0 1px;
+    color: #fff;
+}
+
+.arrow{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-right: 90px;
+}
+
+button.left{
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+button.left:hover{
+    transform: translate(-5px);
+}
+button.right{
+    padding: 0px 18px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all .4s ease;
+    background-color: #0D5C63;
+    color: #fff;
+}
+button.right:hover{
+    transform: translate(5px);
+}
+.showcase-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    width: 100%;
+    max-width: 1500px;
+}
+.card {
+    background-color: #E4DADA;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 200px;
+    text-align: left;
+    position: relative;
+    padding-bottom: 20px;
+    height: fit-content;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.product-image.card-5{
+    width: auto;
+
+}
+
+.like-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    background-color: #E4DADA;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 5px 5px 3px;
+    border-radius: 50%;
+}
+
+.card-p{
+    margin-top: 3px;
+    margin-left: 8px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #19231A;
+}
+
+.prices {
+    margin-top: 3px;
+    margin-left: 8px;
+    margin-bottom: 6px;
+}
+
+.new-price {
+    color: #19231A;
+    margin-right: 10px;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #e74c3c;
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+.sweater-img{
+    height: 150px;
+}
+.loading-section{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.loading-bar {
+    width: 60%;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-top: 2px;
+    overflow: hidden;
+}
+
+.loading-progress {
+    height: 100%;
+    width: 80%; 
+    background-color: #1F2E27;
+    border-radius: 5px;
+}
+.votes{
+    color: rgba(25, 35, 26, 0.5);
+    font-weight: 600;
+    font-size: 8px;
+}

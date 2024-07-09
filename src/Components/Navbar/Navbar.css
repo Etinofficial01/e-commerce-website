@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color: #FFF3E6;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 8%;
+    align-items: center;
+}
+
+.logo p{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: "Jockey One", sans-serif;
+}
+.logo span{
+    text-transform: uppercase;
+    font-family: "Jockey One", sans-serif;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    border: 1px solid #19231A;
+    border-radius: 10px;
+}
+
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+    padding-inline: 2px;
+}
+
+.select p{
+    font-size: 0.9rem;
+    
+}
+.dropdown{
+    margin-left: -10px;
+    color: rgba(25, 35, 26, 0.4);
+}
+.vertical-line {
+    width: 1px; 
+    height: 21px; 
+    background-color: rgba(25, 35, 26, 0.4); 
+    margin: 0 10px; 
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+.search-icon{
+    margin-right: 20px;
+    color: (25, 35, 26, 0.4);
+}
+.search-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.nav-cart-heart{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.cart{
+    cursor: pointer;
+}
+.cart:visited{
+    color: #19231A;
+}
+.heart{
+    color: #F50F0F;
+}
+.count{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: -30px;
+    border-radius: 11px;
+    font-size: 0.5rem;
+    background:  #0D5C63;
+    color: #fff;
+}

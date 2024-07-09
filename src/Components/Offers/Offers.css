@@ -1,0 +1,64 @@
+.container{
+    padding: 50px 13%;
+}
+.header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.today-header{
+    font-size: 1.5rem;
+}
+
+.links{
+    display: flex;
+    padding-right: 80px;
+}
+
+.links button{
+    margin-right: 30px;
+    padding: 4px 10px;
+    text-transform: capitalize;
+    color: #19231A;
+    background-color: transparent;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid #19231A;
+    border-radius: 2px;
+}
+
+.links button.active{
+    background-color: #0D5C63;
+    color: #fff;
+}
+
+.showcase-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 30px;
+}
+.showcase-cards.offer{
+    gap: 15px;
+    max-width: 1000px ;
+    width: 100%;
+}
+.new-card{
+    background: transparent;
+    box-shadow: none;
+}
+
+.new-card:hover{
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.star-section{
+    margin-top: 3px;
+}
+
+.star-section span{
+    padding-right: 3px;
+}
+.checked{
+    color: #F9B600;
+}

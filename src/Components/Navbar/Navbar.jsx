@@ -13,16 +13,33 @@ const Navbar = () => {
         <p><span>mye</span>shop.com</p>
       </div>
 
-      <div className='form'>
-        <p>All categories <IoMdArrowDropdown /> </p>
+      <div className='search-bar'>
+        <div className='select'>
+          <p>All category </p>
+          <IoMdArrowDropdown className='dropdown' />
+        </div>
 
-        <CiSearch />
-        <input type="text" placeholder='Search all products or brands here' />
+        <div class="vertical-line"></div>
+         
+
+        <form>
+          <div className="search">
+            <CiSearch className='search-icon'/>
+            <input className='search-input' type="text" placeholder='Search all products or brands here' />
+          </div>
+        </form>
+        
       </div>
 
       <div className="nav-cart-heart">
-       <RiShoppingCartFill />
-       <div className="count">10</div>
+          <RiShoppingCartFill className='cart' />
+          <div className="count">10</div>
+        
+
+
+
+       <FaHeart className='heart' />
+       <div className="count">5</div>
       </div>
 
     </div>
